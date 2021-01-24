@@ -1,0 +1,321 @@
+/* CSS files add styling rules to your content */
+
+body {
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin: 0em;
+}
+
+.content {
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 0em;
+}
+
+/*h1 {
+  font-style: italic;
+  color: #373fff;
+}*/
+
+
+/* ---------------- box basic  ---------------- */
+* {
+  box-sizing: border-box;
+}
+
+/* thing will not go the left and right*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+/* =========================== ======= Header ======  =========================== */
+/* ---------------- Logo ---------------- */
+#GoogleLogo {
+  width: 15%;
+  height: 15%;
+  display: block;
+  float:left;
+  margin-top:auto;
+  margin-bottom:auto
+}
+
+/* ---------------- Navbar---------------- */
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: none;
+}
+
+.navleft {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 14%;
+  margin-right: auto;
+  padding: 0;
+}
+
+.navright {
+  list-style-type: none;
+  overflow: hidden;
+  padding-top: 1.5%;
+  display:block;
+}
+
+.navli{
+  float: left;
+  font-size: 16px;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #5F6368;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+.navleft a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navleft a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.navleft a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.navleft a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  #GoogleLogo {
+    width: 20%; /* The width is 50%, when the viewport is 800px or smaller */
+    height:20%;
+  }
+  .navleft{
+    margin-left:5%;
+  }
+  .navleft li{
+    padding: 10px;
+  }
+}
+
+
+/*-- =========================== ======= Not Found ======  =========================== --*/
+.header1{
+  color:#424242;
+  font-size: 36px;
+  padding-top:70px;
+  padding-bottom:120px;
+}
+
+.text1{
+  color:#414549;
+  font-size: 18px;
+  padding-bottom:84px;
+}
+
+
+/*-- =========================== ======= footer ======  =========================== --*/
+footer {
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin: 0em;
+}
+
+.footerline {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  margin: 0em;
+}
+
+/* ---------------- box ---------------- */
+.box3 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 350px;
+}
+
+.leftbox3{
+  background-color:none;
+  float:left;
+  padding-left:4.5em;
+  padding-top:3em;
+}
+
+.rightbox3{
+  background-color:none;
+  padding-top:3em;
+}
+
+.twocol2 {
+  width:50%;
+}
+
+/* ---------------- footer link---------------- */
+.content8title{
+  padding-bottom:25px;
+  color:#5F6368;
+  font-size:18px;
+}
+
+.content8text{
+  color:#5F6368;
+  font-size:16px;
+}
+
+.footer{
+  margin: 0;
+  padding-left: 35%;
+  padding-right:2em;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.footerleft {
+  list-style-type: none;
+  padding-right: 20%;
+}
+
+.footerright {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navfooter{
+  float: left;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #5F6368;
+  font-size:16px;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+.navfooter1{
+  float: left;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color:#5F6368;
+  font-size:18px;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+/* ---------------- box ---------------- */
+.box4 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 100px;
+}
+
+.leftbox4{
+  background-color:none;
+  float:left;
+  padding-left:4.5em;
+  padding-top:3em;
+}
+
+.rightbox4{
+  background-color:none;
+  padding-top:3em;
+}
+
+.twocol3 {
+  width:50%;
+}
+
+.glogo{
+  width:5%;
+  height:60%;
+}
+
+.content8terms{
+  text-align:right;
+  padding-right:4.5em;
+  color:#5F6368;
+  font-size:16px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+.twocol2 {
+    width:100%;   
+}
+
+  .footer{
+  margin: 0;
+  padding-left:0em;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+  
+.leftbox3{
+  background-color:none;
+  float:left;
+  padding-left:2em;
+  padding-top:3em;
+}
+  
+.rightbox3{
+  background-color:none;
+  padding-top:3em;
+}
+  
+.leftbox4{
+  background-color:none;
+  float:left;
+  padding-left:2em;
+  padding-top:3em;
+}
+
+.rightbox4{
+  background-color:none;
+  padding-top:3em;
+}
+.glogo{
+  width:10%;
+  height:50%;
+}
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:200px) {
+.twocol3 {
+  width:100%; 
+}
+  
+}
