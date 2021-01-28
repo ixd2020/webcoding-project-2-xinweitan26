@@ -3,6 +3,7 @@
 body {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 0em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content {
@@ -10,6 +11,7 @@ body {
   margin-left: 2em;
   margin-right: 2em;
   margin-top: 0em;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*h1 {
@@ -103,6 +105,7 @@ body {
   overflow: hidden;
   padding-top: 1.5%;
   display: block;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navli {
@@ -117,7 +120,7 @@ body {
   color: #5F6368;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: grey;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
@@ -128,6 +131,7 @@ body {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:visited {
@@ -136,6 +140,7 @@ body {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:hover {
@@ -147,6 +152,7 @@ body {
   text-decoration: none;
   border-bottom: 3px solid #5F6368;
   padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:active {
@@ -156,6 +162,7 @@ body {
   text-align: center;
   border-bottom: 3px solid blue;
   padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -210,6 +217,7 @@ body {
   font-size: 36px;
   padding-top: 40px;
   padding-bottom: 70px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .img1 {
@@ -222,12 +230,14 @@ body {
   color: #414549;
   font-size: 18px;
   padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text2 {
   color: #1967D2;
   font-size: 18px;
   text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*-- =========================== ======= footer ======  =========================== --*/
@@ -255,11 +265,13 @@ footer {
   float: left;
   padding-left: 4.5em;
   padding-top: 3em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .rightbox3 {
   background-color: none;
   padding-top: 3em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .twocol2 {
@@ -271,11 +283,13 @@ footer {
   padding-bottom: 25px;
   color: #5F6368;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content8text {
   color: #5F6368;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer {
@@ -290,11 +304,13 @@ footer {
 .footerleft {
   list-style-type: none;
   padding-right: 20%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footerright {
   list-style-type: none;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navfooter {
@@ -304,18 +320,18 @@ footer {
   padding-bottom: 10px;
   text-decoration: none;
   color: #5F6368;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
 .navfooter1 {
   float: left;
-  font-size: 16px;
   display: block;
   padding-bottom: 30px;
   text-decoration: none;
   color: #5F6368;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -353,6 +369,7 @@ footer {
   padding-right: 4.5em;
   color: #5F6368;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */

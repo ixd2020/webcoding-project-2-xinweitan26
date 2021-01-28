@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  /*font-family: helvetica, arial, sans-serif;*/
+  font-family: 'Roboto', sans-serif;
   margin: 0em;
 }
 
@@ -10,6 +10,7 @@ body {
   margin-left: 2em;
   margin-right: 2em;
   margin-top: 0em;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*h1 {
@@ -48,6 +49,7 @@ body {
 .rightbox {
   background-color: none;
   margin-top: 1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .twocoldiff1 {
@@ -87,6 +89,7 @@ body {
   height: 100%;
   text-align: center;
   background-color: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft {
@@ -95,6 +98,7 @@ body {
   margin-left: 11%;
   margin-right: auto;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navright {
@@ -116,7 +120,7 @@ body {
   color: #5F6368;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: grey;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
@@ -127,6 +131,7 @@ body {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:visited {
@@ -135,6 +140,7 @@ body {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:hover {
@@ -146,6 +152,7 @@ body {
   text-decoration: none;
   border-bottom: 3px solid #5F6368;
   padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:active {
@@ -155,6 +162,7 @@ body {
   text-align: center;
   border-bottom: 3px solid blue;
   padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -208,25 +216,29 @@ body {
   color: #424242;
   font-size: 36px;
   padding-top: 70px;
-  padding-bottom: 120px;
+  padding-bottom:120px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text1 {
   color: #414549;
   font-size: 18px;
   padding-bottom: 84px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*-- =========================== ======= footer ======  =========================== --*/
 footer {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 0em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footerline {
   background-color: lightgrey;
   border: 1px solid lightgrey;
   margin: 0em;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ---------------- box ---------------- */
@@ -242,11 +254,13 @@ footer {
   float: left;
   padding-left: 4.5em;
   padding-top: 3em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .rightbox3 {
   background-color: none;
   padding-top: 3em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .twocol2 {
@@ -258,11 +272,13 @@ footer {
   padding-bottom: 25px;
   color: #5F6368;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content8text {
   color: #5F6368;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer {
@@ -291,18 +307,18 @@ footer {
   padding-bottom: 10px;
   text-decoration: none;
   color: #5F6368;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
 .navfooter1 {
   float: left;
-  font-size: 16px;
   display: block;
   padding-bottom: 30px;
   text-decoration: none;
   color: #5F6368;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -340,6 +356,7 @@ footer {
   padding-right: 4.5em;
   color: #5F6368;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */

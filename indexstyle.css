@@ -3,6 +3,7 @@
 body {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 0em;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*h1 {
@@ -13,6 +14,7 @@ body {
 .content {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 2.5em;
+  font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -59,6 +61,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navright {
@@ -77,7 +80,7 @@ hr {
   color: #5F6368;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -87,6 +90,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:visited {
@@ -95,6 +99,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:hover {
@@ -106,6 +111,7 @@ hr {
   text-decoration: none;
   border-bottom: 3px solid #5F6368;
   padding-bottom: 15%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navleft a:active {
@@ -115,6 +121,7 @@ hr {
   text-align: center;
   border-bottom: 3px solid blue;
   padding-bottom: 15%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -161,21 +168,25 @@ hr {
 #content1title {
   color: #424242;
   font-size: 36px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #content1suntitle {
   color: #424242;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #content1par {
   color: #424242;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #content1name {
   color: #5F6368;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* =========================== ======= Content 2 (newfeed) ======  =========================== */
@@ -191,12 +202,14 @@ hr {
 .leftbox {
   background-color: none;
   float: left;
+  font-family: 'Roboto', sans-serif;
   /*overflow: auto;*/
 }
 
 .rightbox {
   background-color: none;
   padding: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .twocol {
@@ -215,29 +228,34 @@ hr {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 10px 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content2date {
   color: #5F6368;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content2title {
   color: #414549;
   font-size: 24px;
   margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content2para {
   color: #414549;
   font-size: 16px;
   margin-top: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content2par {
   color: #414549;
   font-size: 16px;
   margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ---------------- Img ---------------- */
@@ -260,6 +278,7 @@ hr {
   display: block;
   color: #000000;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #newletter2 {
@@ -269,6 +288,7 @@ hr {
   color: #1967D2;
   font-size: 16px;
   text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
 }
 
 #newletterimg {
@@ -290,12 +310,14 @@ hr {
 .leftbox1 {
   background-color: none;
   float: left;
+  font-family: 'Roboto', sans-serif;
   /*overflow: auto;*/
 }
 
 .rightbox1 {
   background-color: none;
   padding-left: 35px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .twocol1 {
@@ -317,22 +339,26 @@ hr {
 .content3title {
   color: #424242;
   font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content3text {
   color: #424242;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content3textpeople {
   color: #424242;
   font-size: 16px;
   position: right;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content3name {
   color: #5F6368;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 300px: */
@@ -356,6 +382,7 @@ hr {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .collection {
@@ -374,6 +401,7 @@ hr {
   font-size: 24px;
   float: left;
   display: block;
+  font-family: 'Roboto', sans-serif;
 }
 
 .collectionright {
@@ -383,6 +411,7 @@ hr {
   float: right;
   color: #1967d2;
   background-color: lightgrey;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ---------------- box ---------------- */
@@ -425,18 +454,21 @@ hr {
   color: #424242;
   font-size: 24px;
   padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content4text {
   color: #424242;
   font-size: 16px;
   padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content4name {
   color: #5F6368;
   font-size: 14px;
   padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 300px: */
@@ -459,6 +491,7 @@ hr {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ---------------- content ---------------- */
@@ -472,6 +505,7 @@ hr {
 #content6text {
   color: #424242;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content6img {
@@ -487,6 +521,7 @@ hr {
   color: #424242;
   font-size: 16px;
   padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #twitter {
@@ -583,11 +618,13 @@ footer {
   padding-bottom: 25px;
   color: #5F6368;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content8text {
   color: #5F6368;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer {
@@ -616,18 +653,18 @@ footer {
   padding-bottom: 10px;
   text-decoration: none;
   color: #5F6368;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
 .navfooter1 {
   float: left;
-  font-size: 16px;
   display: block;
   padding-bottom: 30px;
   text-decoration: none;
   color: #5F6368;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -665,6 +702,7 @@ footer {
   padding-right: 4.5em;
   color: #5F6368;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
