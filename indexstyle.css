@@ -60,7 +60,7 @@ hr {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding-left: 10px;
   font-family: 'Roboto', sans-serif;
 }
 

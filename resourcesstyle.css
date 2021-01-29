@@ -19,6 +19,72 @@ body {
   color: #373fff;
 }*/
 
+.hrblack {
+  background-color: black;
+  border: 2px solid black;
+}
+
+.hrblue{
+  background-color: #1A73E8;
+  border: 2px solid #1A73E8;
+}
+
+.hrgreen{
+  background-color:#00695C;
+  border: 2px solid #00695C;
+  width:90%;
+  float:left;
+}
+
+.hrred{
+  background-color:#de3641;
+  border: 2px solid #de3641;
+  width:90%;
+  float:left;
+}
+
+.hrdarkblue{
+  background-color:#1c53a2;
+  border: 2px solid #1c53a2;
+  width:90%;
+  float:left;
+}
+
+.hrgold {
+  background-color:#884f21;
+  border: 2px solid #884f21;
+  width:90%;
+  float:left;
+}
+
+.hrdarkblue1{
+  background-color:#0c3f8f;
+  border: 2px solid #0c3f8f;
+  width:90%;
+  float:left;
+}
+
+.hrorange{
+  background-color:#ffa000;
+  border: 2px solid #ffa000;
+  width:90%;
+  float:left;
+}
+
+.hrblue1{
+  background-color: #039be5;
+  border: 2px solid #039be5;
+  width:90%;
+  float:left;
+}
+
+.hrblue2{
+  background-color: #03a9f4;
+  border: 2px solid #03a9f4;
+  width:90%;
+  float:left;
+}
+
 /* ---------------- box basic  ---------------- */
 * {
   box-sizing: border-box;
@@ -121,7 +187,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', sans-serif;
-  color: grey;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -211,7 +276,7 @@ body {
   }
 }
 
-/*-- =========================== ======= content ======  =========================== --*/
+/*-- =========================== ======= content 1 & 2 ======  =========================== --*/
 /* ---------------- header ---------------- */
 .header1 {
   color: #414549;
@@ -231,7 +296,7 @@ body {
 }
 
 .leftbox1 {
-  background-color: green;
+  background-color:none;
   float: left;
   margin-top: 1em;
   padding-top:1%;
@@ -239,7 +304,7 @@ body {
 }
 
 .rightbox1{
-  background-color: blue;
+  background-color: none;
   margin-top: 1em;
 }
 
@@ -263,20 +328,94 @@ body {
   font-size:18px;
   font-family: 'Roboto', sans-serif;
 }
-#material{
-  width:90%;
-  height:100%;
-  float:center;
-  display:block;
-}
 
 .logo{
-  width:10%;
-  heightt:10%;
-  vertical-align: middle;
+  width:15%;
+  heightt:15%;
   display: block;
   float: right;
+  vertical-align: sub;
   padding-right:2%;
+}
+
+ul.materialwlist{
+  float:left;
+  text-align:left;
+  list-style-type: disc;
+  padding-left:5%;
+  background-color:none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.materiallist{
+  text-decoration:underline;
+  color: #1967D2;
+  font-size:18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#material{
+  width:100%;
+  height:100%;
+  padding-left:7%;
+}
+
+/* ---------------- content 2---------------- */
+#font{
+  width:100%;
+  height:100%;
+  padding-left:7%;
+}
+
+/*-- =========================== ======= Content 3 ======  =========================== --*/
+/* ---------------- box ---------------- */
+.box2 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: auto;
+}
+
+.leftbox2 {
+  background-color:none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.centrebox2{
+  background-color: none;
+  font-family: 'Roboto', sans-serif;
+  float:center;
+}
+
+.rightbox2{
+  background-color: none;
+  font-family: 'Roboto', sans-serif;
+  float:center;
+}
+
+.threecol {
+  width: 33.33%;
+}
+
+.logo1{
+  width:23%;
+  heightt:23%;
+  display: block;
+  float:right;
+  padding-right:15%;
+  vertical-align:sub;
+}
+
+.img11{
+  width:90%;
+  height:100%;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .threecol {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 
 /*-- =========================== ======= footer ======  =========================== --*/
