@@ -14,6 +14,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 600px) {
+.content {
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+}
+
 /*h1 {
   font-style: italic;
   color: #373fff;
@@ -190,7 +199,7 @@ body {
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
-.navleft a:link {
+.navli1 a:link {
   float: none;
   color: #5F6368;
   font-size: 16px;
@@ -199,7 +208,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navleft a:visited {
+.navli1 a:visited {
   float: none;
   color: #5F6368;
   font-size: 16px;
@@ -208,24 +217,184 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navleft a:hover {
+.navli1 a:hover {
   background-color: none;
   /*mediumpurple*/
   color: #5F6368;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  border-bottom: 3px solid #5F6368;
+  border-bottom: 3px solid #dfe1e5;;
   padding-bottom: 10%;
   font-family: 'Roboto', sans-serif;
 }
 
-.navleft a:active {
+.navli1 a:active {
   background-color: none;
   color: #5F6368;
   font-size: 16px;
   text-align: center;
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid #4285f4;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli2 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli2 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli2 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli2 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #db4437;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli3 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli3 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli3 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli3 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #ec8a00;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli4 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli4 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli4 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli4 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #319353;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli5 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli5 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli5 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navli5 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #4285f4;
   padding-bottom: 10%;
   font-family: 'Roboto', sans-serif;
 }
@@ -254,26 +423,6 @@ body {
   .navleft li {
     padding: 10px;
   }
-
-  .navleft a:hover {
-    background-color: none;
-    /*mediumpurple*/
-    color: #5F6368;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    border-bottom: 3px solid #5F6368;
-    padding-bottom: 10%;
-  }
-
-  .navleft a:active {
-    background-color: none;
-    color: #5F6368;
-    font-size: 16px;
-    text-align: center;
-    border-bottom: 3px solid blue;
-    padding-bottom: 10%;
-  }
 }
 
 /*-- =========================== ======= content 1 & 2 ======  =========================== --*/
@@ -284,6 +433,7 @@ body {
   padding-top: 20px;
   padding-bottom: 70px;
   font-family: 'Roboto', sans-serif;
+  width:65%;
 }
 
 
@@ -327,6 +477,7 @@ body {
   color: #414549;
   font-size:18px;
   font-family: 'Roboto', sans-serif;
+  width:90%
 }
 
 .logo{
@@ -373,7 +524,7 @@ ul.materialwlist{
   float: left;
   /*width: 33.33%;*/
   padding: 0px;
-  height: auto;
+  height: 400px;
 }
 
 .leftbox2 {
@@ -408,7 +559,7 @@ ul.materialwlist{
 
 .img11{
   width:90%;
-  height:100%;
+  height:40%;
 }
 
 
@@ -417,6 +568,55 @@ ul.materialwlist{
   .threecol {
     width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+  .header1 {
+  color: #414549;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+}
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 600px) {
+  .twocoldiff3 {
+  width: 100%;
+}
+
+.twocoldiff4 {
+  width: 100%;
+} 
+  
+.threecol {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  
+.img11{
+  width:90%;
+  height:40%;
+}
+  
+.header1 {
+  color: #414549;
+  font-size: 23px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+}
+  
+#material{
+  width:100%;
+  height:100%;
+  padding-left:0%;
+}
+
+#font{
+  width:100%;
+  height:100%;
+  padding-left:0%;
+}
 }
 
 /*-- =========================== ======= footer ======  =========================== --*/

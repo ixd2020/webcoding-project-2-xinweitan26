@@ -215,6 +215,72 @@ body {
   padding-bottom: 84px;
 }
 
+
+/* ---------------- content 1---------------- */
+.head{
+  color: #424242;
+  font-size:24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text{
+  color: #414549;
+  font-size:18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*-- =========================== ======= Content 3 ======  =========================== --*/
+/* ---------------- box ---------------- */
+.box2 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: auto;
+}
+
+.leftbox2 {
+  background-color:none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.centrebox2{
+  background-color: none;
+  font-family: 'Roboto', sans-serif;
+  float:center;
+}
+
+.rightbox2{
+  background-color: none;
+  font-family: 'Roboto', sans-serif;
+  float:center;
+}
+
+.threecol {
+  width: 33.33%;
+}
+
+.logo1{
+  width:23%;
+  heightt:23%;
+  display: block;
+  float:right;
+  padding-right:15%;
+  vertical-align:sub;
+}
+
+.img11{
+  width:90%;
+  height:100%;
+}
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .threecol {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
 /*-- =========================== ======= footer ======  =========================== --*/
 footer {
   /*font-family: helvetica, arial, sans-serif;*/
