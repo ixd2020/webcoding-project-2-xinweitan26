@@ -3,7 +3,7 @@
 body {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 0em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*h1 {
@@ -14,18 +14,17 @@ body {
 .content {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 2.5em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 600px) {
-.content {
-  /*font-family: helvetica, arial, sans-serif;*/
-  margin: 1em;
-  font-family: 'Roboto', sans-serif;
+  .content {
+    /*font-family: helvetica, arial, sans-serif;*/
+    margin: 1em;
+    font-family: "Roboto", sans-serif;
+  }
 }
-}
-
 
 hr {
   background-color: blue;
@@ -71,7 +70,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navright {
@@ -90,7 +89,7 @@ hr {
   color: #5F6368;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -100,7 +99,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli1 a:visited {
@@ -109,7 +108,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli1 a:hover {
@@ -119,9 +118,9 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  border-bottom: 3px solid #dfe1e5;;
+  border-bottom: 3px solid #dfe1e5;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli1 a:active {
@@ -131,7 +130,7 @@ hr {
   text-align: center;
   border-bottom: 3px solid #4285f4;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli2 a:link {
@@ -140,7 +139,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli2 a:visited {
@@ -149,7 +148,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli2 a:hover {
@@ -159,9 +158,9 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  border-bottom: 3px solid #dfe1e5;;
+  border-bottom: 3px solid #dfe1e5;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli2 a:active {
@@ -171,7 +170,7 @@ hr {
   text-align: center;
   border-bottom: 3px solid #db4437;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli3 a:link {
@@ -180,7 +179,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli3 a:visited {
@@ -189,7 +188,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli3 a:hover {
@@ -199,9 +198,9 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  border-bottom: 3px solid #dfe1e5;;
+  border-bottom: 3px solid #dfe1e5;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli3 a:active {
@@ -211,7 +210,7 @@ hr {
   text-align: center;
   border-bottom: 3px solid #ec8a00;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli4 a:link {
@@ -220,7 +219,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli4 a:visited {
@@ -229,7 +228,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli4 a:hover {
@@ -239,9 +238,9 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  border-bottom: 3px solid #dfe1e5;;
+  border-bottom: 3px solid #dfe1e5;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli4 a:active {
@@ -251,7 +250,7 @@ hr {
   text-align: center;
   border-bottom: 3px solid #319353;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli5 a:link {
@@ -260,7 +259,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli5 a:visited {
@@ -269,7 +268,7 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli5 a:hover {
@@ -279,9 +278,9 @@ hr {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  border-bottom: 3px solid #dfe1e5;;
+  border-bottom: 3px solid #dfe1e5;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navli5 a:active {
@@ -291,7 +290,7 @@ hr {
   text-align: center;
   border-bottom: 3px solid #4285f4;
   padding-bottom: 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -304,27 +303,27 @@ hr {
   }
 
   .navli3 a:hover {
-  background-color: none;
-  /*mediumpurple*/
-  color: #5F6368;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  border-bottom: 3px solid #dfe1e5;;
-  padding-bottom: 10%;
-  font-family: 'Roboto', sans-serif;
-}
+    background-color: none;
+    /*mediumpurple*/
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
 
-.navli3 a:active {
-  background-color: none;
-  color: #5F6368;
-  font-size: 16px;
-  text-align: center;
-  border-bottom: 3px solid #ec8a00;
-  padding-bottom: 10%;
-  font-family: 'Roboto', sans-serif;
+  .navli3 a:active {
+    background-color: none;
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #ec8a00;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
 }
-
 /* =========================== ======= Content 1 (welcome) ======  =========================== */
 /* ---------------- Img ---------------- */
 #flower {
@@ -339,38 +338,37 @@ hr {
 #content1title {
   color: #424242;
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #content1subtitle {
   color: #424242;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #content1par {
   color: #424242;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  width:65%;
+  font-family: "Roboto", sans-serif;
+  width: 65%;
 }
 
 #content1name {
   color: #5F6368;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 600px) {
   #content1par {
-  color: #424242;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  width:100%;
+    color: #424242;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+  }
 }
-}
-
 
 /* =========================== ======= Content 2 (newfeed) ======  =========================== */
 /* ---------------- box ---------------- */
@@ -385,14 +383,14 @@ hr {
 .leftbox {
   background-color: none;
   float: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /*overflow: auto;*/
 }
 
 .rightbox {
   background-color: none;
   padding: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .twocol {
@@ -401,11 +399,11 @@ hr {
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 600px) {
- .rightbox {
-  background-color: none;
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-}
+  .rightbox {
+    background-color: none;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -413,12 +411,12 @@ hr {
   .twocol {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-  
+
   .rightbox {
-  background-color: none;
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-}
+    background-color: none;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 /* ---------------- text ---------------- */
@@ -426,35 +424,35 @@ hr {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 10px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content2date {
   color: #5F6368;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content2title {
   color: #414549;
   font-size: 24px;
   margin-top: 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content2para {
   color: #414549;
   font-size: 16px;
   margin-top: 24px;
-  font-family: 'Roboto', sans-serif;
-  width:90%;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
 }
 
 .content2par {
   color: #414549;
   font-size: 16px;
   margin-top: 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ---------------- Img ---------------- */
@@ -477,7 +475,7 @@ hr {
   display: block;
   color: #000000;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #newletter2 {
@@ -487,7 +485,7 @@ hr {
   color: #1967D2;
   font-size: 16px;
   text-decoration: underline;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #newletterimg {
@@ -509,14 +507,14 @@ hr {
 .leftbox1 {
   background-color: none;
   float: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /*overflow: auto;*/
 }
 
 .rightbox1 {
   background-color: none;
   padding-left: 35px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .twocol1 {
@@ -538,35 +536,35 @@ hr {
 .content3title {
   color: #424242;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  width:90%;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
 }
 
 .content3title1 {
   color: #424242;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  width:90%;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
 }
 
 .content3text {
   color: #424242;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  width:90%;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
 }
 
 .content3textpeople {
   color: #424242;
   font-size: 16px;
   position: right;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content3name {
   color: #5F6368;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Use a media query to add a break point at 300px: */
@@ -574,33 +572,33 @@ hr {
   .twocol1 {
     width: 100%;
   }
-  
+
   .rightbox1 {
-  background-color: none;
-  padding-left: 0px;
-  font-family: 'Roboto', sans-serif;
- } 
-  
+    background-color: none;
+    padding-left: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
   .clearfixnew {
-  overflow: center;
-  background-color: lightgrey;
-  width:100%;
-  margin: auto;
-}
-  
-.box1 {
-  float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 400px;
-}
-  
-.content3title1 {
-  color: #424242;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  width:90%;
-}
+    overflow: center;
+    background-color: lightgrey;
+    width: 100%;
+    margin: auto;
+  }
+
+  .box1 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 400px;
+  }
+
+  .content3title1 {
+    color: #424242;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -609,25 +607,25 @@ hr {
     width: 95%;
     height: 30%;
   }
-  
+
   .box1 {
-  float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 600px;
-}
-  
-.content3img {
-  width: 95%;
-  height: 50%;
-}
-  
-.content3title1 {
-  color: #424242;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  width:90%;
-}
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 600px;
+  }
+
+  .content3img {
+    width: 95%;
+    height: 50%;
+  }
+
+  .content3title1 {
+    color: #424242;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
 }
 
 /*-- =========================== ======= Content 4 (Featured Collection) ======  =========================== --*/
@@ -636,7 +634,7 @@ hr {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 0px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .collection {
@@ -655,18 +653,18 @@ hr {
   font-size: 24px;
   float: left;
   display: block;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .collectionright {
   list-style-type: none;
   overflow: hidden;
   padding: 10px;
-  font-size:14px;
+  font-size: 14px;
   float: right;
   color: #1967d2;
   background-color: lightgrey;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ---------------- box ---------------- */
@@ -716,21 +714,21 @@ hr {
   color: #424242;
   font-size: 24px;
   padding-left: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content4text {
   color: #424242;
   font-size: 16px;
   padding-left: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content4name {
   color: #5F6368;
   font-size: 14px;
   padding-left: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Use a media query to add a break point at 300px: */
@@ -738,61 +736,61 @@ hr {
   .threecol {
     width: 100%;
   }
-  
+
   .box2 {
-  float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 300px;
-} 
-  
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+  }
+
   .box22 {
-  float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 500px;
-}
-  
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
   .content4img {
-  width: 90%;
-  height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-}
-  
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
   .content4title {
-  color: #424242;
-  font-size: 24px;
-  padding-left: 0px;
-  font-family: 'Roboto', sans-serif;
-}
+    color: #424242;
+    font-size: 24px;
+    padding-left: 0px;
+    font-family: "Roboto", sans-serif;
+  }
 
-.content4text {
-  color: #424242;
-  font-size: 16px;
-  padding-left: 0px;
-  font-family: 'Roboto', sans-serif;
-}
+  .content4text {
+    color: #424242;
+    font-size: 16px;
+    padding-left: 0px;
+    font-family: "Roboto", sans-serif;
+  }
 
-.content4name {
-  color: #5F6368;
-  font-size: 14px;
-  padding-left: 0px;
-  font-family: 'Roboto', sans-serif;
-}
+  .content4name {
+    color: #5F6368;
+    font-size: 14px;
+    padding-left: 0px;
+    font-family: "Roboto", sans-serif;
+  }
 
   .collectionleft {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  color: #000000;
-  font-size: 20px;
-  float: left;
-  display: block;
-  font-family: 'Roboto', sans-serif;
-}
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    color: #000000;
+    font-size: 20px;
+    float: left;
+    display: block;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -808,7 +806,7 @@ hr {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 0px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ---------------- content ---------------- */
@@ -822,7 +820,7 @@ hr {
 #content6text {
   color: #424242;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content6img {
@@ -838,7 +836,7 @@ hr {
   color: #424242;
   font-size: 16px;
   padding-left: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #twitter {
@@ -864,20 +862,20 @@ hr {
     width: 100%;
   }
   .content6text {
-  color: #424242;
-  font-size: 16px;
-  padding-left: 0px;
-  font-family: 'Roboto', sans-serif;
-}
-  
+    color: #424242;
+    font-size: 16px;
+    padding-left: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
   .content6img {
-  width: 90%;
-  height: 50%;
-  display: block;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 10px;
-}
+    width: 90%;
+    height: 50%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+  }
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -950,13 +948,13 @@ footer {
   padding-bottom: 25px;
   color: #5F6368;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content8text {
   color: #5F6368;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer {
@@ -985,7 +983,7 @@ footer {
   padding-bottom: 10px;
   text-decoration: none;
   color: #5F6368;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -996,7 +994,7 @@ footer {
   text-decoration: none;
   color: #5F6368;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -1034,7 +1032,7 @@ footer {
   padding-right: 4.5em;
   color: #5F6368;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Use a media query to add a break point at 800px: */
