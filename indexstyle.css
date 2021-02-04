@@ -335,6 +335,22 @@ hr {
     font-family: "Roboto", sans-serif;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #search{
+  width: 4%;
+  height: 4%;
+  display: block;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top:5px;
+}
+
+  .navleft li {
+    padding: 6px;
+  }
+}
 /* =========================== ======= Content 1 (welcome) ======  =========================== */
 /* ---------------- Img ---------------- */
 #flower {

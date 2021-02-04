@@ -358,6 +358,46 @@ body {
   .navleft li {
     padding: 10px;
   }
+  
+}
+
+@media screen and (max-width: 600px) {
+.twocoldiff1 {
+  width: 100%;
+}
+
+.twocoldiff2 {
+  width: 100%
+}
+  
+#GoogleLogo{
+  width: 80%;
+  height: 80%;
+  display: block;
+  float: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left:20%;
+}
+
+  #search{
+  width: 4%;
+  height: 4%;
+  display: block;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top:5px;
+}
+  
+.navleft {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 0%;
+  margin-right: auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
 }
 
 /*-- =========================== ======= Not Found ======  =========================== --*/
