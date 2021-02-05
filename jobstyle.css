@@ -1,9 +1,8 @@
 /* CSS files add styling rules to your content */
 
 body {
-  /*font-family: helvetica, arial, sans-serif;*/
-  margin: 0em;
   font-family: "Roboto", sans-serif;
+  margin: 0em;
 }
 
 .content {
@@ -28,72 +27,12 @@ body {
   color: #373fff;
 }*/
 
-.hrblack {
-  background-color: black;
-  border: 2px solid black;
-}
-
-.hrblue {
-  background-color: #1A73E8;
-  border: 2px solid #1A73E8;
-}
-
 .hrgreen {
-  background-color: #00695C;
-  border: 2px solid #00695C;
+  background-color: #319353;
+  border: 2px solid #319353;
   width: 90%;
   float: left;
 }
-
-.hrred {
-  background-color: #de3641;
-  border: 2px solid #de3641;
-  width: 90%;
-  float: left;
-}
-
-.hrdarkblue {
-  background-color: #1c53a2;
-  border: 2px solid #1c53a2;
-  width: 90%;
-  float: left;
-}
-
-.hrgold {
-  background-color: #884f21;
-  border: 2px solid #884f21;
-  width: 90%;
-  float: left;
-}
-
-.hrdarkblue1 {
-  background-color: #0c3f8f;
-  border: 2px solid #0c3f8f;
-  width: 90%;
-  float: left;
-}
-
-.hrorange {
-  background-color: #ffa000;
-  border: 2px solid #ffa000;
-  width: 90%;
-  float: left;
-}
-
-.hrblue1 {
-  background-color: #039be5;
-  border: 2px solid #039be5;
-  width: 90%;
-  float: left;
-}
-
-.hrblue2 {
-  background-color: #03a9f4;
-  border: 2px solid #03a9f4;
-  width: 90%;
-  float: left;
-}
-
 /* ---------------- box basic  ---------------- */
 * {
   box-sizing: border-box;
@@ -165,6 +104,7 @@ body {
   height: 100%;
   text-align: center;
   background-color: none;
+  font-family: "Roboto", sans-serif;
 }
 
 .navleft {
@@ -173,6 +113,7 @@ body {
   margin-left: 11%;
   margin-right: auto;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .navright {
@@ -195,6 +136,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: "Roboto", sans-serif;
+  color: grey;
   /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
 }
 
@@ -425,61 +367,59 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-.twocoldiff1 {
-  width: 100%;
+  .twocoldiff1 {
+    width: 100%;
+  }
+
+  .twocoldiff2 {
+    width: 100%;
+  }
+
+  #GoogleLogo {
+    width: 80%;
+    height: 80%;
+    display: block;
+    float: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20%;
+  }
+
+  #search {
+    width: 4%;
+    height: 4%;
+    display: block;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+  }
+
+  .navleft {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-right: auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
-.twocoldiff2 {
-  width: 100%
-}
-  
-#GoogleLogo{
-  width: 80%;
-  height: 80%;
-  display: block;
-  float: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left:20%;
-}
-
-  #search{
-  width: 4%;
-  height: 4%;
-  display: block;
-  float: right;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top:5px;
-}
-  
-.navleft {
-  list-style-type: none;
-  overflow: hidden;
-  margin-left: 0%;
-  margin-right: auto;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-}
-}
-
-/*-- =========================== ======= content 1 & 2 ======  =========================== --*/
-/* ---------------- header ---------------- */
-.header1 {
-  color: #414549;
-  font-size: 36px;
-  padding-top: 20px;
-  padding-bottom: 70px;
-  font-family: "Roboto", sans-serif;
-  width: 65%;
-}
-
+/*-- =========================== ======= content 1 ======  =========================== --*/
 /* ---------------- box ---------------- */
 .box1 {
   float: left;
   /*width: 33.33%;*/
   padding: 0px;
-  height: auto;
+  height: 500px;
+  background-color: none;
+}
+
+.box2 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 530px;
 }
 
 .leftbox1 {
@@ -496,141 +436,113 @@ body {
 }
 
 .twocoldiff3 {
-  width: 30%;
+  width: 40%;
 }
 
 .twocoldiff4 {
-  width: 70%;
+  width: 60%;
 }
 
-/* ---------------- content 1---------------- */
-.head {
-  color: #424242;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-}
-
-.head1 {
-  color: #424242;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-} 
-
-.text {
+/* ---------------- content ---------------- */
+#text1 {
   color: #414549;
-  font-size: 18px;
+  font-size: 36px;
   font-family: "Roboto", sans-serif;
-  width: 90%;
+  position: absolute;
+  top: 110px;
+  left: 45px;
 }
 
-.logo {
-  width: 15%;
-  heightt: 15%;
-  display: block;
-  float: right;
-  vertical-align: sub;
-  padding-right: 2%;
-}
-
-ul.materialwlist {
-  float: left;
-  text-align: left;
-  list-style-type: disc;
-  padding-left: 5%;
-  background-color: none;
+.text2 {
+  color: #757575;
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
 
-.materiallist {
-  text-decoration: underline;
+#text3 {
   color: #1967D2;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
+  text-decoration: underline;
 }
 
-#material {
-  width: 100%;
-  height: 100%;
-  padding-left: 7%;
-}
-
-/* ---------------- content 2---------------- */
-#font {
-  width: 100%;
-  height: 100%;
-  padding-left: 7%;
-}
-
-/*-- =========================== ======= Content 3 ======  =========================== --*/
-/* ---------------- box ---------------- */
-.box2 {
+#img1 {
+  width: 80%;
+  height: 90%;
   float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 400px;
+  padding-top: 20%;
 }
 
-.leftbox2 {
-  background-color: none;
-  font-family: "Roboto", sans-serif;
-  float: center;
+#img2 {
+  width: 100%;
+  height: 90%;
 }
 
-.centrebox2 {
-  background-color: none;
-  font-family: "Roboto", sans-serif;
-  float: center;
-}
-
-.rightbox2 {
-  background-color:none;
-  font-family: "Roboto", sans-serif;
-  float: center;
-}
-
-.threecol {
-  width: 33.33%;
-}
-
-.logo1 {
-  width: 23%;
-  heightt: 23%;
-  display: block;
-  float: right;
-  padding-right: 15%;
-  vertical-align: sub;
-}
-
-.img11 {
-  width: 90%;
-  height: 40%;
-}
-
-/* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
-  .threecol {
-    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  .box1 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 290px;
+    background-color: none;
   }
-  .header1 {
+
+  .box2 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 290px;
+    background-color: none;
+  }
+
+  #text1 {
     color: #414549;
-    font-size: 36px;
-    padding-top: 20px;
-    padding-bottom: 70px;
+    font-size: 30px;
     font-family: "Roboto", sans-serif;
-    width: 100%;
+    position: absolute;
+    top: 110px;
+    left: 45px;
   }
-  
-.head1 {
-  color: #424242;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-  width:80%;
-} 
-  
+
+  #img1 {
+    width: 80%;
+    height: 85%;
+    float: left;
+    padding-top: 40%;
+  }
+
+  #img2 {
+    width: 100%;
+    height: 70%;
+  }
 }
 
-/* Use a media query to add a break point at 600px: */
 @media screen and (max-width: 600px) {
+  .box1 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+    background-color: none;
+  }
+
+  .box2 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+    background-color: none;
+  }
+
+  #text1 {
+    color: #414549;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 20px;
+  }
+
   .twocoldiff3 {
     width: 100%;
   }
@@ -639,123 +551,80 @@ ul.materialwlist {
     width: 100%;
   }
 
-  .threecol {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-
-  .img11 {
-    width: 90%;
-    height: 40%;
-  }
-
-  .header1 {
-    color: #414549;
-    font-size: 23px;
-    padding-top: 20px;
-    padding-bottom: 70px;
-    font-family: "Roboto", sans-serif;
+  #img1 {
     width: 100%;
+    height: 90%;
+    float: left;
+    padding-top: 30%;
   }
 
-  #material {
+  #img2 {
     width: 100%;
-    height: 100%;
-    padding-left: 0%;
+    height: 70%;
   }
-
-  #font {
-    width: 100%;
-    height: 100%;
-    padding-left: 0%;
-  }
-  
-  .head {
-  color: #424242;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-  width:100%;
 }
 
-.head1 {
-  color: #424242;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-  width:100%;
-} 
-
-.hrgreen {
-  background-color: #00695C;
-  border: 2px solid #00695C;
-  width: 100%;
+/*-- =========================== ======= content 2 ======  =========================== --*/
+/* ---------------- box part 1 ---------------- */
+.box5 {
   float: left;
-}
-
-.hrred {
-  background-color: #de3641;
-  border: 2px solid #de3641;
-  width: 100%;
-  float: left;
-}
-
-.hrdarkblue {
-  background-color: #1c53a2;
-  border: 2px solid #1c53a2;
-  width: 100%;
-  float: left;
-}
-
-.hrgold {
-  background-color: #884f21;
-  border: 2px solid #884f21;
-  width: 100%;
-  float: left;
-}
-
-.hrdarkblue1 {
-  background-color: #0c3f8f;
-  border: 2px solid #0c3f8f;
-  width: 100%;
-  float: left;
-}
-
-.hrorange {
-  background-color: #ffa000;
-  border: 2px solid #ffa000;
-  width: 100%;
-  float: left;
-}
-
-.hrblue1 {
-  background-color: #039be5;
-  border: 2px solid #039be5;
-  width: 100%;
-  float: left;
-}
-
-.hrblue2 {
-  background-color: #03a9f4;
-  border: 2px solid #03a9f4;
-  width: 100%;
-  float: left;
-}
-
-.blank {
-  float: left;
-  width: 100%;
+  /*width: 33.33%;*/
   padding: 0px;
-  height: 0px;
+  height: 350px;
   background-color: none;
 }
-  
-.blank1 {
+
+.box6 {
   float: left;
-  width: 100%;
+  /*width: 33.33%;*/
   padding: 0px;
-  height: 20px;
-  background-color:none;
-}
+  height: 350px;
+  background-color: none;
 }
 
+.leftbox2 {
+  background-color: none;
+  float: left;
+  margin-top: 1em;
+  padding-top: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightbox2 {
+  background-color: none;
+  margin-top: 1em;
+}
+
+.twocoldiff5 {
+  width: 70%;
+}
+
+.twocoldiff6 {
+  width: 30%;
+}
+
+/* ---------------- content part 1 ---------------- */
+#img3 {
+  width: 100%;
+  height: 100%;
+}
+
+.text4 {
+  color: #414549;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+#text5 {
+  color: #1967D2;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  width: 90%;
+}
+
+/* ---------------- box  part 2---------------- */
 .blank {
   float: left;
   width: 100%;
@@ -764,24 +633,266 @@ ul.materialwlist {
   background-color: none;
 }
 
-.blank1 {
+.box7 {
   float: left;
-  width: 100%;
+  /*width: 33.33%;*/
   padding: 0px;
-  height: 0px;
+  height: 400px;
   background-color: none;
 }
 
+.box8 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+  background-color: none;
+}
+
+.leftbox7 {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  float: center;
+}
+
+.centrebox7 {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  float: center;
+}
+
+.rightbox7 {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  float: center;
+}
+
+.threecol {
+  width: 33.33%;
+}
+
+/* ---------------- content part 2 ---------------- */
+.people {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+.contenttitle {
+  color: #424242;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.contenttextpeople {
+  color: #424242;
+  font-size: 16px;
+  position: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.img4 {
+  width: 80%;
+  height: 40%;
+}
+
+.content3title {
+  color: #424242;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content3text {
+  color: #424242;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content3name {
+  color: #5F6368;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .twocoldiff5 {
+    width: 100%;
+  }
+
+  .blank {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: none;
+  }
+
+  #img3 {
+    width: 80%;
+    height: 90%;
+  }
+
+  .box6 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 250px;
+    background-color: none;
+  }
+
+  .twocoldiff6 {
+    width: 50%;
+  }
+
+  .box7 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+    background-color:none;
+  }
+
+  .box8 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 450px;
+    background-color:none;
+  }
+  .threecol {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twocoldiff5 {
+    width: 100%;
+  }
+  .twocoldiff6 {
+    width: 100%;
+  }
+  
+  #img3 {
+    width: 90%;
+    height: 90%;
+  }
+
+  .threecol {
+    width: 100%;
+  }
+}
+
+/*-- =========================== ======= content 4======  =========================== --*/
+/* ---------------- box---------------- */
+.box9 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 500px;
+  background-color: none;
+}
+
+.box10 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 500px;
+  background-color: none;
+}
+
+.box11 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+  background-color: none;
+}
+
+/* ---------------- content ---------------- */
+.img5{
+  width:90%;
+  height:90%;
+}
+
+#img6{
+  width:80%;
+  height:80%;
+}
+
+
+.blank1{
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 70px;
+  background-color:none;
+}
+
+@media screen and (max-width: 800px) {
+  .blank1{
+  float: left;
+  width: 0%;
+  padding: 0px;
+  height: 0px;
+  background-color:green;
+}
+  .box9 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+  background-color: none;
+}
+
+  .box10 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 200px;
+  background-color: none;
+}
+.box11 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 500px;
+  background-color: none;
+}
+
+  .img5{
+  width:100%;
+  height:80%;
+}
+  
+  #img6{
+  width:70%;
+  height:40%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  #img6{
+  width:100%;
+  height:80%;
+}
+
+}
 /*-- =========================== ======= footer ======  =========================== --*/
 footer {
   /*font-family: helvetica, arial, sans-serif;*/
   margin: 0em;
+  font-family: "Roboto", sans-serif;
 }
 
 .footerline {
   background-color: lightgrey;
   border: 1px solid lightgrey;
   margin: 0em;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ---------------- box ---------------- */
