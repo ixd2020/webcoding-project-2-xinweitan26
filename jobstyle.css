@@ -1,40 +1,38 @@
 /* CSS files add styling rules to your content */
 
 body {
-  margin: 0em;
   font-family: "Roboto", sans-serif;
+  margin: 0em;
 }
 
 .content {
-  margin: 2em;
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 0em;
   font-family: "Roboto", sans-serif;
 }
 
-/* Use a media query to add a break point at 600px: */
+/* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 600px) {
   .content {
+    /*font-family: helvetica, arial, sans-serif;*/
     margin: 1em;
     font-family: "Roboto", sans-serif;
   }
 }
 
-hr {
-  background-color: blue;
-  border: 2px solid blue;
-}
+/*h1 {
+  font-style: italic;
+  color: #373fff;
+}*/
 
-/* ---------------- Hover Box  ---------------- */
-.hover {
-  border: 0px solid transparent;
-  padding: 10px 10px 10px 10px;
+.hrgreen {
+  background-color: #319353;
+  border: 2px solid #319353;
+  width: 90%;
+  float: left;
 }
-
-.hover:hover {
-  border: 1px solid transparent;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 transparent;
-}
-
 /* ---------------- box basic  ---------------- */
 * {
   box-sizing: border-box;
@@ -45,4 +43,1019 @@ hr {
   content: "";
   clear: both;
   display: table;
+}
+
+/* =========================== ======= Header ======  =========================== */
+/* ---------------- box ---------------- */
+.box {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: auto;
+}
+
+.leftbox {
+  background-color: none;
+  float: left;
+  margin-top: 1em;
+  padding-top: 1%;
+}
+
+.rightbox {
+  background-color: none;
+  margin-top: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+.twocoldiff1 {
+  width: 20%;
+}
+
+.twocoldiff2 {
+  width: 80%;
+}
+
+/* ---------------- logo ---------------- */
+#GoogleLogo {
+  width: 70%;
+  height: 80%;
+  display: block;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#search {
+  width: 2%;
+  height: 2%;
+  display: block;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 10px;
+}
+
+/* ---------------- navbar ---------------- */
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navleft {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 11%;
+  margin-right: auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navright {
+  list-style-type: none;
+  overflow: hidden;
+  padding-top: 1.5%;
+  display: block;
+}
+
+.navli {
+  float: left;
+  font-size: 16px;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #5F6368;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+.navli1 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli1 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli1 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli1 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #4285f4;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli2 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli2 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli2 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli2 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #db4437;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli3 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli3 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli3 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli3 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #ec8a00;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli4 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli4 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli4 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli4 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #319353;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli5 a:link {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli5 a:visited {
+  float: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli5 a:hover {
+  background-color: none;
+  /*mediumpurple*/
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid #dfe1e5;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.navli5 a:active {
+  background-color: none;
+  color: #5F6368;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 3px solid #4285f4;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  #GoogleLogo {
+    width: 100%; /* The width is 50%, when the viewport is 800px or smaller */
+    height: 100%;
+    padding-top: 10%;
+  }
+
+  #search {
+    width: 3%;
+    height: 3%;
+    display: block;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 3px;
+  }
+
+  .navleft {
+    margin-left: 5%;
+  }
+  .navleft li {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twocoldiff1 {
+    width: 100%;
+  }
+
+  .twocoldiff2 {
+    width: 100%;
+  }
+
+  #GoogleLogo {
+    width: 80%;
+    height: 80%;
+    display: block;
+    float: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20%;
+  }
+
+  #search {
+    width: 4%;
+    height: 4%;
+    display: block;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+  }
+
+  .navleft {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-right: auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+/*-- =========================== ======= content 1 ======  =========================== --*/
+/* ---------------- box ---------------- */
+.box1 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 500px;
+  background-color: none;
+}
+
+.box2 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 530px;
+}
+
+.leftbox1 {
+  background-color: none;
+  float: left;
+  margin-top: 1em;
+  padding-top: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightbox1 {
+  background-color: none;
+  margin-top: 1em;
+}
+
+.twocoldiff3 {
+  width: 40%;
+}
+
+.twocoldiff4 {
+  width: 60%;
+}
+
+/* ---------------- content ---------------- */
+#text1 {
+  color: #414549;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 110px;
+  left: 45px;
+}
+
+.text2 {
+  color: #757575;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+#text3 {
+  color: #1967D2;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+}
+
+#img1 {
+  width: 80%;
+  height: 90%;
+  float: left;
+  padding-top: 20%;
+}
+
+#img2 {
+  width: 100%;
+  height: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .box1 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 290px;
+    background-color: none;
+  }
+
+  .box2 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 290px;
+    background-color: none;
+  }
+
+  #text1 {
+    color: #414549;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+  }
+
+  #img1 {
+    width: 80%;
+    height: 85%;
+    float: left;
+    padding-top: 40%;
+  }
+
+  #img2 {
+    width: 100%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box1 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+    background-color: none;
+  }
+
+  .box2 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+    background-color: none;
+  }
+
+  #text1 {
+    color: #414549;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 20px;
+  }
+
+  .twocoldiff3 {
+    width: 100%;
+  }
+
+  .twocoldiff4 {
+    width: 100%;
+  }
+
+  #img1 {
+    width: 100%;
+    height: 90%;
+    float: left;
+    padding-top: 30%;
+  }
+
+  #img2 {
+    width: 100%;
+    height: 70%;
+  }
+}
+
+/*-- =========================== ======= content 2 ======  =========================== --*/
+/* ---------------- box part 1 ---------------- */
+.box5 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 350px;
+  background-color: none;
+}
+
+.box6 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 350px;
+  background-color: none;
+}
+
+.leftbox2 {
+  background-color: none;
+  float: left;
+  margin-top: 1em;
+  padding-top: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightbox2 {
+  background-color: none;
+  margin-top: 1em;
+}
+
+.twocoldiff5 {
+  width: 70%;
+}
+
+.twocoldiff6 {
+  width: 30%;
+}
+
+/* ---------------- content part 1 ---------------- */
+#img3 {
+  width: 100%;
+  height: 100%;
+}
+
+.text4 {
+  color: #414549;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+#text5 {
+  color: #1967D2;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  width: 90%;
+}
+
+/* ---------------- box  part 2---------------- */
+.blank {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 70px;
+  background-color: none;
+}
+
+.box7 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+  background-color: none;
+}
+
+.box8 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+  background-color: none;
+}
+
+.leftbox7 {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  float: center;
+}
+
+.centrebox7 {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  float: center;
+}
+
+.rightbox7 {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  float: center;
+}
+
+.threecol {
+  width: 33.33%;
+}
+
+/* ---------------- content part 2 ---------------- */
+.people {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+.contenttitle {
+  color: #424242;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.contenttextpeople {
+  color: #424242;
+  font-size: 16px;
+  position: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.img4 {
+  width: 80%;
+  height: 40%;
+}
+
+.content3title {
+  color: #424242;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content3text {
+  color: #424242;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content3name {
+  color: #5F6368;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .twocoldiff5 {
+    width: 100%;
+  }
+
+  .blank {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: none;
+  }
+
+  #img3 {
+    width: 80%;
+    height: 90%;
+  }
+
+  .box6 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 250px;
+    background-color: none;
+  }
+
+  .twocoldiff6 {
+    width: 50%;
+  }
+
+  .box7 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+    background-color: none;
+  }
+
+  .box8 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 450px;
+    background-color: none;
+  }
+  .threecol {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twocoldiff5 {
+    width: 100%;
+  }
+  .twocoldiff6 {
+    width: 100%;
+  }
+
+  #img3 {
+    width: 90%;
+    height: 90%;
+  }
+
+  .threecol {
+    width: 100%;
+  }
+}
+
+/*-- =========================== ======= content 4======  =========================== --*/
+/* ---------------- box---------------- */
+.box9 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 500px;
+  background-color: none;
+}
+
+.box10 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 500px;
+  background-color: none;
+}
+
+.box11 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+  background-color: none;
+}
+
+/* ---------------- content ---------------- */
+.img5 {
+  width: 90%;
+  height: 90%;
+}
+
+#img6 {
+  width: 80%;
+  height: 80%;
+}
+
+.blank1 {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 70px;
+  background-color: none;
+}
+
+@media screen and (max-width: 800px) {
+  .blank1 {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: green;
+  }
+  .box9 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 400px;
+    background-color: none;
+  }
+
+  .box10 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 200px;
+    background-color: none;
+  }
+  .box11 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+    background-color: none;
+  }
+
+  .img5 {
+    width: 100%;
+    height: 80%;
+  }
+
+  #img6 {
+    width: 70%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #img6 {
+    width: 100%;
+    height: 80%;
+  }
+}
+/*-- =========================== ======= footer ======  =========================== --*/
+footer {
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin: 0em;
+  font-family: "Roboto", sans-serif;
+}
+
+.footerline {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  margin: 0em;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ---------------- box ---------------- */
+.box3 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 350px;
+}
+
+.leftbox3 {
+  background-color: none;
+  float: left;
+  padding-left: 4.5em;
+  padding-top: 3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightbox3 {
+  background-color: none;
+  padding-top: 3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.twocol2 {
+  width: 50%;
+}
+
+/* ---------------- footer link---------------- */
+.content8title {
+  padding-bottom: 25px;
+  color: #5F6368;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content8text {
+  color: #5F6368;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  margin: 0;
+  padding-left: 35%;
+  padding-right: 2em;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.footerleft {
+  list-style-type: none;
+  padding-right: 20%;
+}
+
+.footerright {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navfooter {
+  float: left;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #5F6368;
+  font-family: "Roboto", sans-serif;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+.navfooter1 {
+  float: left;
+  display: block;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: #5F6368;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+/* ---------------- box ---------------- */
+.box4 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 100px;
+}
+
+.leftbox4 {
+  background-color: none;
+  float: left;
+  padding-left: 4.5em;
+  padding-top: 3em;
+}
+
+.rightbox4 {
+  background-color: none;
+  padding-top: 3em;
+}
+
+.twocol3 {
+  width: 50%;
+}
+
+.glogo {
+  width: 5%;
+  height: 60%;
+}
+
+.content8terms {
+  text-align: right;
+  padding-right: 4.5em;
+  color: #5F6368;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .twocol2 {
+    width: 100%;
+  }
+
+  .footer {
+    margin: 0;
+    padding-left: 0em;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .leftbox3 {
+    background-color: none;
+    float: left;
+    padding-left: 2em;
+    padding-top: 3em;
+  }
+
+  .rightbox3 {
+    background-color: none;
+    padding-top: 3em;
+  }
+
+  .leftbox4 {
+    background-color: none;
+    float: left;
+    padding-left: 2em;
+    padding-top: 3em;
+  }
+
+  .rightbox4 {
+    background-color: none;
+    padding-top: 3em;
+  }
+  .glogo {
+    width: 10%;
+    height: 50%;
+  }
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 200px) {
+  .twocol3 {
+    width: 100%;
+  }
 }

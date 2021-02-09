@@ -392,6 +392,116 @@ hr {
   .navleft li {
     padding: 6px;
   }
+
+  .navli1 a:hover {
+    background-color: none;
+    /*mediumpurple*/
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli1 a:active {
+    background-color: none;
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #4285f4;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli2 a:hover {
+    background-color: none;
+    /*mediumpurple*/
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli2 a:active {
+    background-color: none;
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #db4437;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli3 a:hover {
+    background-color: none;
+    /*mediumpurple*/
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli3 a:active {
+    background-color: none;
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #ec8a00;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli4 a:hover {
+    background-color: none;
+    /*mediumpurple*/
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli4 a:active {
+    background-color: none;
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #319353;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli5 a:hover {
+    background-color: none;
+    /*mediumpurple*/
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid #dfe1e5;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .navli5 a:active {
+    background-color: none;
+    color: #5F6368;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 3px solid #4285f4;
+    padding-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 /* =========================== ======= Content1 (Welcome) ======  =========================== */
@@ -1232,7 +1342,6 @@ hr {
 
 .leftboxc6 {
   background-color: none;
-  float: left;
   /*overflow: auto;*/
 }
 
@@ -1258,13 +1367,6 @@ hr {
   padding-top: 10px;
 }
 
-#content6img {
-  width: 90%;
-  height: 50%;
-  padding-top: 10px;
-  padding-left: 0px;
-}
-
 .content6text {
   color: #424242;
   font-size: 16px;
@@ -1277,11 +1379,6 @@ hr {
   width: 5%;
   height: 5%;
   float: right;
-}
-
-#twitter {
-  width: 6%;
-  height: 5%;
 }
 
 .twitter {
@@ -1327,17 +1424,12 @@ hr {
     height: 20px;
     background-color: none;
   }
-  
-  #twitter {
-  width: 6%;
-  height: 5%;
-}
 
-.twitter {
-  width: 6%;
-  height: 5%;
-  padding-left: 0px;
-}
+  .twitter {
+    width: 6%;
+    height: 5%;
+    padding-left: 0px;
+  }
 }
 
 /* Use a media query to add a break point at 600px: */
@@ -1398,12 +1490,6 @@ hr {
     height: 10%;
     float: right;
   }
-
-  #twitter {
-    width: 10%;
-    height: 5%;
-  }
-
   .twitter {
     width: 20%;
     height: 5%;
@@ -1413,15 +1499,187 @@ hr {
 
 /* Use a media query to add a break point at 600px: */
 @media screen and (max-width: 600px) {
-  
-  #twitter {
-  width: 6%;
-  height: 5%;
+  .twitter {
+    width: 6%;
+    height: 5%;
+    padding-left: 0px;
+  }
 }
 
-.twitter {
-  width: 6%;
-  height: 5%;
-  padding-left: 0px;
+/*-- =========================== ======= footer ======  =========================== --*/
+footer {
+  /*font-family: helvetica, arial, sans-serif;*/
+  margin: 0em;
 }
+
+.footerline {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  margin: 0em;
+}
+
+/* ---------------- box ---------------- */
+.box3 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 350px;
+}
+
+.leftbox3 {
+  background-color: none;
+  float: left;
+  padding-left: 4.5em;
+  padding-top: 3em;
+}
+
+.rightbox3 {
+  background-color: none;
+  padding-top: 3em;
+}
+
+.twocol2 {
+  width: 50%;
+}
+
+/* ---------------- footer link---------------- */
+.content8title {
+  padding-bottom: 25px;
+  color: #5F6368;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content8text {
+  color: #5F6368;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  margin: 0;
+  padding-left: 35%;
+  padding-right: 2em;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.footerleft {
+  list-style-type: none;
+  padding-right: 20%;
+}
+
+.footerright {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navfooter {
+  float: left;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #5F6368;
+  font-family: "Roboto", sans-serif;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+.navfooter1 {
+  float: left;
+  display: block;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: #5F6368;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
+}
+
+/* ---------------- box ---------------- */
+.box4 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 100px;
+}
+
+.leftbox4 {
+  background-color: none;
+  float: left;
+  padding-left: 4.5em;
+  padding-top: 3em;
+}
+
+.rightbox4 {
+  background-color: none;
+  padding-top: 3em;
+}
+
+.twocol3 {
+  width: 50%;
+}
+
+.glogo {
+  width: 5%;
+  height: 60%;
+}
+
+.content8terms {
+  text-align: right;
+  padding-right: 4.5em;
+  color: #5F6368;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .twocol2 {
+    width: 100%;
+  }
+
+  .footer {
+    margin: 0;
+    padding-left: 0em;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .leftbox3 {
+    background-color: none;
+    float: left;
+    padding-left: 2em;
+    padding-top: 3em;
+  }
+
+  .rightbox3 {
+    background-color: none;
+    padding-top: 3em;
+  }
+
+  .leftbox4 {
+    background-color: none;
+    float: left;
+    padding-left: 2em;
+    padding-top: 3em;
+  }
+
+  .rightbox4 {
+    background-color: none;
+    padding-top: 3em;
+  }
+  .glogo {
+    width: 10%;
+    height: 50%;
+  }
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 200px) {
+  .twocol3 {
+    width: 100%;
+  }
 }
