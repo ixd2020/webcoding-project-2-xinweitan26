@@ -1,26 +1,18 @@
 /* CSS files add styling rules to your content */
 
 body {
-  /*font-family: helvetica, arial, sans-serif;*/
   margin: 0em;
   font-family: "Roboto", sans-serif;
 }
 
-/*h1 {
-  font-style: italic;
-  color: #373fff;
-}*/
-
 .content {
-  /*font-family: helvetica, arial, sans-serif;*/
-  margin: 2.5em;
+  margin: 2em;
   font-family: "Roboto", sans-serif;
 }
 
-/* Use a media query to add a break point at 800px: */
+/* Use a media query to add a break point at 600px: */
 @media screen and (max-width: 600px) {
   .content {
-    /*font-family: helvetica, arial, sans-serif;*/
     margin: 1em;
     font-family: "Roboto", sans-serif;
   }
@@ -31,17 +23,66 @@ hr {
   border: 2px solid blue;
 }
 
-.hover{
+/* ---------------- Hover Box  ---------------- */
+.hover {
   border: 0px solid transparent;
-  padding:10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 .hover:hover {
   border: 1px solid transparent;
-  background-color:white;
-  box-shadow:  0 4px 8px 0 grey, 0 6px 20px 0 transparent;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 transparent;
 }
 
+/* ---------------- Space ---------------- */
+.space {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 50px;
+  background-color: none;
+}
+
+.space1 {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 70px;
+  background-color: none;
+}
+
+.space2 {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 70px;
+  background-color: none;
+}
+
+.space3 {
+  float: left;
+  width: 0%;
+  padding: 0px;
+  height: 0px;
+  background-color: none;
+}
+
+.space4 {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 20px;
+  background-color: none;
+}
+
+.space5 {
+  float: left;
+  width: 0%;
+  padding: 0px;
+  height: 0px;
+  background-color: none;
+}
 /* ---------------- box basic  ---------------- */
 * {
   box-sizing: border-box;
@@ -304,6 +345,7 @@ hr {
   font-family: "Roboto", sans-serif;
 }
 
+/* ---------------- Responsive ---------------- */
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
   #GoogleLogo {
@@ -337,31 +379,31 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  #search{
-  width: 4%;
-  height: 4%;
-  display: block;
-  float: right;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top:5px;
-}
+  #search {
+    width: 4%;
+    height: 4%;
+    display: block;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+  }
 
   .navleft li {
     padding: 6px;
   }
 }
-/* =========================== ======= Content 1 (welcome) ======  =========================== */
+
+/* =========================== ======= Content1 (Welcome) ======  =========================== */
 /* ---------------- Img ---------------- */
-#flower {
+#banner {
   width: 100%;
   height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* ---------------- text ---------------- */
+/* ---------------- Text ---------------- */
 #content1title {
   color: #424242;
   font-size: 36px;
@@ -387,7 +429,8 @@ hr {
   font-family: "Roboto", sans-serif;
 }
 
-/* Use a media query to add a break point at 800px: */
+/* ---------------- Responsive ---------------- */
+/* Use a media query to add a break point at 600px: */
 @media screen and (max-width: 600px) {
   #content1par {
     color: #424242;
@@ -399,55 +442,32 @@ hr {
 
 /* =========================== ======= Content 2 (newfeed) ======  =========================== */
 /* ---------------- box ---------------- */
-
-.box {
+.boxc2 {
   float: left;
   /*width: 33.33%;*/
   padding: 0px;
   height: auto;
 }
 
-.leftbox {
+.leftboxc2 {
   background-color: none;
   float: left;
   font-family: "Roboto", sans-serif;
   /*overflow: auto;*/
 }
 
-.rightbox {
+.rightboxc2 {
   background-color: none;
   padding: 15px;
   font-family: "Roboto", sans-serif;
 }
 
-.twocol {
+.twocolc2 {
   width: 50%;
 }
 
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 600px) {
-  .rightbox {
-    background-color: none;
-    padding: 0px;
-    font-family: "Roboto", sans-serif;
-  }
-}
-
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 800px) {
-  .twocol {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-
-  .rightbox {
-    background-color: none;
-    padding: 0px;
-    font-family: "Roboto", sans-serif;
-  }
-}
-
 /* ---------------- text ---------------- */
-#contentheader1 {
+#content2header {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 10px 0px;
@@ -522,36 +542,101 @@ hr {
   padding-top: 15px;
 }
 
+/* ---------------- Responsive ---------------- */
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width: 600px) {
+  .rightboxc2 {
+    background-color: none;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .clearfixnew {
+    overflow: center;
+    background-color: lightgrey;
+    width: 100%;
+    margin: auto;
+  }
+
+  #newletter1 {
+    padding-left: 25px;
+    padding-top: 35px;
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #newletter2 {
+    padding-left: 25px;
+    padding-bottom: 35px;
+    display: block;
+    color: #1967D2;
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #newletterimg {
+    width: 20%;
+    height: 15%;
+    float: right;
+    padding-top: 35px;
+  }
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .twocolc2 {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .rightboxc2 {
+    background-color: none;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
 /*-- =========================== ======= Content 3 (newfeed more) ======  =========================== --*/
 /* ---------------- box ---------------- */
-.box1 {
+.boxc3 {
   float: left;
   /*width: 33.33%;*/
   padding: 0px;
-  height: 600px;
+  height: 550px;
 }
 
-.leftbox1 {
-  background-color: none;
+.boxdiffc3 {
   float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+}
+
+.leftboxc3 {
+  background-color: none;
+  padding-left: 35px;
+  padding-top: 30px;
   font-family: "Roboto", sans-serif;
   /*overflow: auto;*/
 }
 
-.rightbox1 {
+.rightboxc3 {
   background-color: none;
   padding-left: 35px;
+  padding-top: 30px;
   font-family: "Roboto", sans-serif;
 }
 
-.twocol1 {
+.twocolc3 {
   width: 50%;
 }
 
 /* ---------------- content ---------------- */
 .content3img {
   width: 95%;
-  height: 50%;
+  height: 60%;
 }
 
 .content3imgpeople {
@@ -594,57 +679,56 @@ hr {
   font-family: "Roboto", sans-serif;
 }
 
-/* Use a media query to add a break point at 300px: */
-@media screen and (max-width: 600px) {
-  .twocol1 {
-    width: 100%;
-  }
-
-  .rightbox1 {
-    background-color: none;
-    padding-left: 0px;
-    font-family: "Roboto", sans-serif;
-  }
-
-  .clearfixnew {
-    overflow: center;
-    background-color: lightgrey;
-    width: 100%;
-    margin: auto;
-  }
-
-  .box1 {
-    float: left;
-    /*width: 33.33%;*/
-    padding: 0px;
-    height: 400px;
-  }
-
-  .content3title1 {
-    color: #424242;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    width: 90%;
-  }
-}
-
+/* ---------------- Responsive ---------------- */
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
-  .content3img {
-    width: 95%;
-    height: 30%;
+  .space2 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+    background-color: none;
   }
 
-  .box1 {
+  .space3 {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: none;
+  }
+
+  .boxc3 {
     float: left;
     /*width: 33.33%;*/
     padding: 0px;
-    height: 600px;
+    height: 500px;
+  }
+
+  .boxdiffc3 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
+  .leftboxc3 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .rightboxc3 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
   }
 
   .content3img {
     width: 95%;
-    height: 50%;
+    height: 40%;
   }
 
   .content3title1 {
@@ -655,9 +739,71 @@ hr {
   }
 }
 
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width: 600px) {
+  .space2 {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: none;
+  }
+
+  .space3 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+    background-color: none;
+  }
+
+  .twocolc3 {
+    width: 100%;
+  }
+
+  .leftboxc3 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 500px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .rightboxc3 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .boxc3 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
+  .boxdiffc3 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+  }
+  .content3title1 {
+    color: #424242;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
+
+  .content3img {
+    width: 100%;
+    height: 50%;
+  }
+}
+
 /*-- =========================== ======= Content 4 (Featured Collection) ======  =========================== --*/
 
-#contentheader2 {
+#content4header {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 0px 0px;
@@ -695,35 +841,35 @@ hr {
 }
 
 /* ---------------- box ---------------- */
-.box2 {
+.boxc4 {
   float: left;
   /*width: 33.33%;*/
   padding: 0px;
-  height: 500px;
+  height: 400px;
 }
 
-.box22 {
+.boxc42 {
   float: left;
   /*width: 33.33%;*/
   padding: 0px;
-  height: 500px;
+  height: 400px;
 }
 
-.leftbox2 {
+.leftboxc4 {
   background-color: none;
   float: left;
   /*overflow: auto;*/
 }
 
-.centrebox2 {
+.centreboxc4 {
   background-color: none;
 }
 
-.rightbox2 {
+.rightboxc4 {
   background-color: none;
 }
 
-.threecol {
+.threecolc4 {
   width: 33.33%;
 }
 
@@ -749,6 +895,7 @@ hr {
   font-size: 16px;
   padding-left: 20px;
   font-family: "Roboto", sans-serif;
+  width: 90%;
 }
 
 .content4name {
@@ -758,20 +905,26 @@ hr {
   font-family: "Roboto", sans-serif;
 }
 
+.arrow {
+  width: 5%;
+  height: 5%;
+  float: right;
+}
+
 /* Use a media query to add a break point at 300px: */
 @media screen and (max-width: 600px) {
-  .threecol {
+  .threecolc4 {
     width: 100%;
   }
 
-  .box2 {
+  .boxc4 {
     float: left;
     /*width: 33.33%;*/
     padding: 0px;
-    height: 300px;
+    height: 200px;
   }
 
-  .box22 {
+  .boxc42 {
     float: left;
     /*width: 33.33%;*/
     padding: 0px;
@@ -779,10 +932,10 @@ hr {
   }
 
   .content4img {
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: block;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     padding-top: 10px;
   }
@@ -799,6 +952,7 @@ hr {
     font-size: 16px;
     padding-left: 0px;
     font-family: "Roboto", sans-serif;
+    width: 90%;
   }
 
   .content4name {
@@ -818,25 +972,292 @@ hr {
     display: block;
     font-family: "Roboto", sans-serif;
   }
+
+  .space5 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+    background-color: none;
+  }
 }
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
   .content4img {
     width: 95%;
-    height: 30%;
+    height: 20%;
+  }
+
+  .boxc4 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: auto;
+  }
+
+  .boxc42 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: auto;
+  }
+
+  .arrow {
+    width: 10%;
+    height: 10%;
+    float: right;
   }
 }
 
-/*-- =========================== ======= Content 6 (THe Lastest) ======  =========================== --*/
-#contentheader3 {
+/*-- =========================== ======= Content 5 (Featured Collection more) ======  =========================== --*/
+/* ---------------- box ---------------- */
+.boxc5 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 600px;
+}
+
+.boxdiffc5 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+}
+
+.leftboxc5 {
+  background-color: none;
+  padding-left: 35px;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  /*overflow: auto;*/
+}
+
+.rightboxc5 {
+  background-color: none;
+  padding-left: 35px;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.twocolc5 {
+  width: 50%;
+}
+
+/* ---------------- content ---------------- */
+.content5img {
+  width: 95%;
+  height: 60%;
+}
+
+.content5imgpeople {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+.content5title {
+  color: #424242;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content5title1 {
+  color: #424242;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content5text {
+  color: #424242;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.content5textpeople {
+  color: #424242;
+  font-size: 16px;
+  position: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.content5name {
+  color: #5F6368;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ---------------- Responsive ---------------- */
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .space2 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+    background-color: none;
+  }
+
+  .space3 {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: none;
+  }
+
+  .boxc5 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
+  .boxdiffc5 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
+  .leftboxc5 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .rightboxc5 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .content5img {
+    width: 95%;
+    height: 40%;
+  }
+
+  .content5title1 {
+    color: #424242;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
+}
+
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width: 600px) {
+  .space2 {
+    float: left;
+    width: 0%;
+    padding: 0px;
+    height: 0px;
+    background-color: none;
+  }
+
+  .space3 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+    background-color: none;
+  }
+
+  .twocolc5 {
+    width: 100%;
+  }
+
+  .leftboxc5 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 500px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .rightboxc5 {
+    background-color: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .boxc5 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
+  .boxdiffc5 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 300px;
+  }
+  .content5title1 {
+    color: #424242;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
+
+  .content5img {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+/*-- =========================== ======= Content 6 (The lastest) ======  =========================== --*/
+
+#content6header {
   color: #000000;
   font-size: 24px;
   padding: 10px 0px 0px 0px;
   font-family: "Roboto", sans-serif;
 }
 
+/* ---------------- box ---------------- */
+.boxc6 {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 0px;
+  height: 400px;
+}
+
+.leftboxc6 {
+  background-color: none;
+  float: left;
+  /*overflow: auto;*/
+}
+
+.centreboxc6 {
+  background-color: none;
+}
+
+.rightboxc6 {
+  background-color: none;
+}
+
+.threecolc6 {
+  width: 33.33%;
+}
+
 /* ---------------- content ---------------- */
+.content6img {
+  width: 90%;
+  height: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
 #content6img {
   width: 90%;
   height: 50%;
@@ -844,26 +1265,18 @@ hr {
   padding-left: 0px;
 }
 
-#content6text {
-  color: #424242;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-}
-
-.content6img {
-  width: 90%;
-  height: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-}
-
 .content6text {
   color: #424242;
   font-size: 16px;
   padding-left: 20px;
   font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+
+.arrow {
+  width: 5%;
+  height: 5%;
+  float: right;
 }
 
 #twitter {
@@ -877,31 +1290,92 @@ hr {
   padding-left: 20px;
 }
 
-.arrow {
-  width: 5%;
-  height: 5%;
-  float: right;
-}
-
-/* Use a media query to add a break point at 300px: */
+/* Use a media query to add a break point at 600px: */
 @media screen and (max-width: 600px) {
-  .threecol {
+  .threecolc6 {
     width: 100%;
   }
+
+  .boxc6 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
+  }
+
+  .content6img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
   .content6text {
     color: #424242;
     font-size: 16px;
     padding-left: 0px;
     font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
+
+  .space5 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+    background-color: none;
+  }
+  
+  #twitter {
+  width: 6%;
+  height: 5%;
+}
+
+.twitter {
+  width: 6%;
+  height: 5%;
+  padding-left: 0px;
+}
+}
+
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width: 600px) {
+  .threecolc6 {
+    width: 100%;
+  }
+
+  .boxc6 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: 500px;
   }
 
   .content6img {
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     display: block;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: auto;
     padding-top: 10px;
+  }
+
+  .content6text {
+    color: #424242;
+    font-size: 16px;
+    padding-left: 0px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+  }
+
+  .space5 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+    background-color: none;
   }
 }
 
@@ -909,11 +1383,20 @@ hr {
 @media screen and (max-width: 800px) {
   .content6img {
     width: 95%;
-    height: 30%;
+    height: 20%;
   }
-  #content6img {
-    width: 95%;
-    height: 30%;
+
+  .boxc6 {
+    float: left;
+    /*width: 33.33%;*/
+    padding: 0px;
+    height: auto;
+  }
+
+  .arrow {
+    width: 10%;
+    height: 10%;
+    float: right;
   }
 
   #twitter {
@@ -926,188 +1409,19 @@ hr {
     height: 5%;
     padding-left: 20px;
   }
-
-  .arrow {
-    width: 10%;
-    height: 10%;
-    float: right;
-  }
 }
 
-/*-- =========================== ======= footer ======  =========================== --*/
-footer {
-  /*font-family: helvetica, arial, sans-serif;*/
-  margin: 0em;
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width: 600px) {
+  
+  #twitter {
+  width: 6%;
+  height: 5%;
 }
 
-.footerline {
-  background-color: lightgrey;
-  border: 1px solid lightgrey;
-  margin: 0em;
+.twitter {
+  width: 6%;
+  height: 5%;
+  padding-left: 0px;
 }
-
-/* ---------------- box ---------------- */
-.box3 {
-  float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 350px;
-}
-
-.leftbox3 {
-  background-color: none;
-  float: left;
-  padding-left: 4.5em;
-  padding-top: 3em;
-}
-
-.rightbox3 {
-  background-color: none;
-  padding-top: 3em;
-}
-
-.twocol2 {
-  width: 50%;
-}
-
-/* ---------------- footer link---------------- */
-.content8title {
-  padding-bottom: 25px;
-  color: #5F6368;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-}
-
-.content8text {
-  color: #5F6368;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-}
-
-.footer {
-  margin: 0;
-  padding-left: 35%;
-  padding-right: 2em;
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.footerleft {
-  list-style-type: none;
-  padding-right: 20%;
-}
-
-.footerright {
-  list-style-type: none;
-  padding: 0;
-}
-
-.navfooter {
-  float: left;
-  font-size: 16px;
-  display: block;
-  padding-bottom: 10px;
-  text-decoration: none;
-  color: #5F6368;
-  font-family: "Roboto", sans-serif;
-  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
-}
-
-.navfooter1 {
-  float: left;
-  display: block;
-  padding-bottom: 30px;
-  text-decoration: none;
-  color: #5F6368;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  /*font-family: "Google Sans",Roboto,Arial,sans-serif;*/
-}
-
-/* ---------------- box ---------------- */
-.box4 {
-  float: left;
-  /*width: 33.33%;*/
-  padding: 0px;
-  height: 100px;
-}
-
-.leftbox4 {
-  background-color: none;
-  float: left;
-  padding-left: 4.5em;
-  padding-top: 3em;
-}
-
-.rightbox4 {
-  background-color: none;
-  padding-top: 3em;
-}
-
-.twocol3 {
-  width: 50%;
-}
-
-.glogo {
-  width: 5%;
-  height: 60%;
-}
-
-.content8terms {
-  text-align: right;
-  padding-right: 4.5em;
-  color: #5F6368;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-}
-
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 800px) {
-  .twocol2 {
-    width: 100%;
-  }
-
-  .footer {
-    margin: 0;
-    padding-left: 0em;
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-
-  .leftbox3 {
-    background-color: none;
-    float: left;
-    padding-left: 2em;
-    padding-top: 3em;
-  }
-
-  .rightbox3 {
-    background-color: none;
-    padding-top: 3em;
-  }
-
-  .leftbox4 {
-    background-color: none;
-    float: left;
-    padding-left: 2em;
-    padding-top: 3em;
-  }
-
-  .rightbox4 {
-    background-color: none;
-    padding-top: 3em;
-  }
-  .glogo {
-    width: 10%;
-    height: 50%;
-  }
-}
-
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 200px) {
-  .twocol3 {
-    width: 100%;
-  }
 }
