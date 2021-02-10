@@ -683,62 +683,6 @@ ul.materialwlist {
   width:100%;
 } 
 
-.hrgreen {
-  background-color: #00695C;
-  border: 2px solid #00695C;
-  width: 100%;
-  float: left;
-}
-
-.hrred {
-  background-color: #de3641;
-  border: 2px solid #de3641;
-  width: 100%;
-  float: left;
-}
-
-.hrdarkblue {
-  background-color: #1c53a2;
-  border: 2px solid #1c53a2;
-  width: 100%;
-  float: left;
-}
-
-.hrgold {
-  background-color: #884f21;
-  border: 2px solid #884f21;
-  width: 100%;
-  float: left;
-}
-
-.hrdarkblue1 {
-  background-color: #0c3f8f;
-  border: 2px solid #0c3f8f;
-  width: 100%;
-  float: left;
-}
-
-.hrorange {
-  background-color: #ffa000;
-  border: 2px solid #ffa000;
-  width: 100%;
-  float: left;
-}
-
-.hrblue1 {
-  background-color: #039be5;
-  border: 2px solid #039be5;
-  width: 100%;
-  float: left;
-}
-
-.hrblue2 {
-  background-color: #03a9f4;
-  border: 2px solid #03a9f4;
-  width: 100%;
-  float: left;
-}
-
 .blank {
   float: left;
   width: 100%;
