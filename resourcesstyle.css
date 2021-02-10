@@ -508,12 +508,14 @@ body {
   color: #424242;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
+  vertical-align: baseline;
 }
 
 .head1 {
   color: #424242;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
+  vertical-align: baseline;
 } 
 
 .text {
@@ -528,7 +530,7 @@ body {
   heightt: 15%;
   display: block;
   float: right;
-  vertical-align: sub;
+  vertical-align: baseline;
   padding-right: 2%;
 }
 
@@ -598,7 +600,7 @@ ul.materialwlist {
   display: block;
   float: right;
   padding-right: 15%;
-  vertical-align: sub;
+  vertical-align: baseline;
 }
 
 .img11 {
@@ -625,8 +627,8 @@ ul.materialwlist {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   width:80%;
+  vertical-align: baseline;
 } 
-  
 }
 
 /* Use a media query to add a break point at 600px: */
@@ -674,6 +676,7 @@ ul.materialwlist {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   width:100%;
+  vertical-align: baseline;
 }
 
 .head1 {
@@ -681,6 +684,7 @@ ul.materialwlist {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   width:100%;
+  vertical-align: baseline;
 } 
 
 .blank {
